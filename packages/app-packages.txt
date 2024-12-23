@@ -1,0 +1,1 @@
+brave-bin floorp-bin thorium-browser-bin virt-manager qemu-base quodlibet scrcpy android-sdk-platform-tools gnome-calculator lxappearance pinta nemo kdeconnect eog gnome-clocks alacritty htop freetube-bin neovim popcorntime-bin upscayl-bin ranger mousepad stacer-bin metadata-cleaner perl-image-exiftool feh micro foliate

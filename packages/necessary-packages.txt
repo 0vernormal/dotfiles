@@ -1,0 +1,1 @@
+base-devel rofi picom conky alacritty vim nitrogen qtile qtile-extras python-psutil python-iwlib python_dbus python_pip lm_sensors iw wpa_supplicant networkmanager wireless_tools i3lock-fancy-git copyq flameshot tlp powertop btop 
