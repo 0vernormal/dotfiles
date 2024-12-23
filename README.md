@@ -1,0 +1,1 @@
+terminus & nerd fonts needed
