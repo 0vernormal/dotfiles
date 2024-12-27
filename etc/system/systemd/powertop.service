@@ -1,0 +1,20 @@
+[Unit]
+Description=PowerTop service for power optimization
+After=network.target
+
+[Service]
+Type=simple
+ExecStartPre=/usr/sbin/modprobe cpufreq_powersave
+ExecStartPre=/usr/sbin/modprobe cpufreq_conservative
+
+ExecStartPre=/usr/sbin/iw dev wlan0 set power_save off
+ExecStartPre=/usr/sbin/iw dev wlan1 set power_save off
+ExecStartPre=/usr/sbin/iw dev wlan2 set power_save off
+
+ExecStart=/usr/sbin/powertop --auto-tune
+
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
