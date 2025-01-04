@@ -1,1 +1,1 @@
-base-devel linux-firmware mkinitcpio rofi picom conky alacritty vim nitrogen qtile qtile-extras python-psutil python-iwlib python_dbus python_pip lm_sensors iw wpa_supplicant networkmanager wireless_tools i3lock-fancy-git copyq flameshot powertop powercap btop
+base-devel linux-firmware mkinitcpio rofi rofi-calc rofi-power-menu rofi-emoji brightnessctl picom conky alacritty vim nitrogen qtile qtile-extras python-psutil python-iwlib python_dbus python_pip lm_sensors iw wpa_supplicant networkmanager wireless_tools i3lock-fancy-git copyq flameshot powertop powercap btop
