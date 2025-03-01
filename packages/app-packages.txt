@@ -1,0 +1,3 @@
+floorp-bin thorium-browser-bin virt-manager qemu-base bridge-utils quodlibet scrcpy android-sdk-platform-tools pinta kdeconnect gnome-clocks freetube-bin popcorntime-bin upscayl-bin stacer-bin foliate
+
+
