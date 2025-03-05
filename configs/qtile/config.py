@@ -222,6 +222,8 @@ widget_defaults = dict(
     #font="TerminessNerdFont Bold",
     #font="OverpassM Nerd Font",
     font="IntoneMono Nerd Font",
+    #font="MonaspiceKr Nerd Font",
+
     fontsize=16,
     padding=5,
 )
