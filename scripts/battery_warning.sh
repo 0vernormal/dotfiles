@@ -13,9 +13,14 @@ while true; do
     for THRESHOLD in "${THRESHOLDS[@]}"; do
         if [[ "$BATTERY_LEVEL" -le "$THRESHOLD" && "$PREVIOUS_LEVEL" -gt "$THRESHOLD" ]]; then
             eval "$NOTIFY_CMD 'Battery level is $BATTERY_LEVEL%! $REMAINING_TIME'"
-            PREVIOUS_LEVEL=$BATTERY_LEVEL
         fi
     done
+
+    if [[ "$BATTERY_LEVEL" -gt "$PREVIOUS_LEVEL" ]]; then
+        PREVIOUS_LEVEL=$BATTERY_LEVEL
+    elif [[ "$BATTERY_LEVEL" -lt "$PREVIOUS_LEVEL" ]]; then
+        PREVIOUS_LEVEL=$BATTERY_LEVEL
+    fi
 
     sleep 60
 done
